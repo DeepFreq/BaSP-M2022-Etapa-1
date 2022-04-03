@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#header {
+    background-color: lightgrey;
+  color:red;
+}
+.sidebar-buttons {
+    background-color: grey;
+  color:red;
+}
+.sidebar-contact {
+    background-color: lightgrey;
+  color:red;
+}
+
+#article-welcome {
+    background-color: grey;
+  color:red;
+}
+.section-features {
+    background-color: lightgray;
+  color:red;
+}
+.resource-f {
+    background-color: gray;
+  color:red;
+}
+.reports-f {
+    background-color: lightgray;
+  color:red;
+}
+.multiple-f {
+    background-color: grey;
+  color:red;
+}
+.skills {
+    background-color: lightgreen;
+    color:red;
+}
+.productivity-s {
+    background-color: greenyellow;
+  color:red;
+}
+.traceability-s {
+    background-color: lightgreen;
+  color:red;
+}
+.team-management-s {
+    background-color: greenyellow;
+  color:red;
+}
+.decision-s {
+    background-color: lightgreen;
+  color:red;
+}
+#form {
+    background-color: lightgray;
+  color:red;
+}
+.fieldset-info-form {
+    background-color: gray;
+  color:red;
+}
+.fieldset-contact-form {
+    background-color: lightgray;
+  color:red;
+}
+.history {
+    background-color: gray;
+  color:red;
+}
+.section-pages {
+    background-color: lightgray;
+  color:red;
+}
+#footer {
+    background-color: yellow;
+  color:red;
+}
