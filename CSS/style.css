@@ -6,11 +6,11 @@
 }
 #header h1 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 300%;
   background-color: #AACE9B;
   position: fixed;
   text-align: right;
-  height: 70px;
+  height: 7.5%;
   right: 0px;
   width: 100%;
 }
@@ -23,8 +23,8 @@
   top: 54px;
   right: 3px;
 }
+/* SIDEBAR */
 .sidebar {
-  display: block;
   font-weight: 400;
   font-size: 25,5px;
   position: fixed;
@@ -38,8 +38,7 @@
 }
 .sidebar-buttons li {
   margin: 40px 10px 10px 10px;
-  position: relative;
-  top: 10px;
+  display: block;
   color:white;
   font-size: 20px;
   background-color: #AACE9B;
@@ -57,32 +56,34 @@
 }
 .sidebar-contact {
   color: white;
+  display: block;
 }
 .sidebar-contact h2 {
- position:absolute;
- bottom: 500px;
+ position: absolute;
+ top: 47%;
  font-size: 20px;
- left: 8px;
+ left: 6%;
 }
 .sidebar-contact p {
   position:absolute;
   font-size: 12px;
-  bottom: 460px;
-  left: 8px;
-  right: 3px;
+  top: 50%;
+  left: 6%;
+  right: 6%;
 }
 .sidebar li {
   text-align: center;
 }
 .li-email {
   position: absolute;
-  bottom: 280px;
-  font-size: 15px;
-  left: 7px;
-  right: 7px;
+  bottom: 30%;
+  left: 3%;
+  right: 3%;
 }
 .img-email {
-  margin: 5px 5px 5px 5px;
+  display: block;
+  margin: auto;
+  
 }
 .li-tel {
   position: absolute;
@@ -92,10 +93,8 @@
   right: 15px;
 }
 .img-phone {
-  position: absolute;
-  bottom: 25px;
-  left: 70px;
-  align-items: center;
+  display: block;
+  margin:auto;
 }
 .li-adress {
   position: absolute;
@@ -103,7 +102,41 @@
   font-size: 15px;
 }
 .img-house {
-  position: absolute;
-  bottom: 55px;
-  left: 85px;
+  display: block;
+  margin: auto;
+}
+/* Welcome */
+#article-welcome {
+  position:sticky;
+  top: 11%;
+  margin-left: 12%;
+  width: 70%; 
+  z-index: -1;
+}
+#article-welcome h2 {
+  font-weight: 700;
+  font-size: 70px;
+}
+#article-welcome h3 {
+  font-weight: 700;
+  font-size: 250%;
+  margin-top: 2%;
+}
+#article-welcome p {
+  display: block;
+  font-weight: 400;
+  font-size: 150%;
+  text-align: center;
+  box-sizing: content-box;
+  margin-top: 10%;
+  width: 40%;
+  height: 50%;
+  padding: 5px;
+}
+.img-resourceh {
+  position:absolute;
+  left: 50%;
+  top: 30%;
+  height: 110%;
+  width: 60%;
 }
