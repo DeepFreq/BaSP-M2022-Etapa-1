@@ -1,79 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-#header {
-    background-color: lightgrey;
-  color:red;
+#body {
+  font-family: 'Roboto', sans-serif;
+  color: #373867;
 }
-.sidebar-buttons {
-    background-color: grey;
-  color:red;
+#header h1 {
+  font-weight: 700;
+  font-size: 50px;
+  background-color: #AACE9B;
+  position: fixed;
+  text-align: right;
+  height: 70px;
+  right: 0px;
+  width: 100%;
+}
+#header p {
+  font-weight: 700;
+  font-size: 25,5px;
+  color: #69A362;
+  position: fixed;
+  text-align: right;
+  top: 54px;
+  right: 3px;
+}
+.sidebar {
+  display: block;
+  font-weight: 400;
+  font-size: 25,5px;
+  position: fixed;
+  border-left:50px;
+  top: 70px;
+  height: 100%;
+  background-color: #373867;
+  width:10%;
+  box-shadow: 0px 5px 10px rgb(77, 76, 76);
+  border-radius: 0px 10px 0px 10px;
+}
+.sidebar-buttons li {
+  margin: 40px 10px 10px 10px;
+  position: relative;
+  top: 10px;
+  color:white;
+  font-size: 20px;
+  background-color: #AACE9B;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius: 10px;
+}
+.ul-buttons a {
+  color:#373867;
+  text-decoration:none;
+}
+.sidebar-contact a {
+  color: white;
+  text-decoration:none;
 }
 .sidebar-contact {
-    background-color: lightgrey;
-  color:red;
+  color: white;
 }
-
-#article-welcome {
-    background-color: grey;
-  color:red;
+.sidebar-contact h2 {
+ position:absolute;
+ bottom: 500px;
+ font-size: 22px;
+ left: 8px;
 }
-.section-features {
-    background-color: lightgray;
-  color:red;
+.sidebar-contact p {
+  position:absolute;
+  font-size: 12px;
+  bottom: 460px;
+  left: 8px;
+  right: 3px;
 }
-.resource-f {
-    background-color: gray;
-  color:red;
+.sidebar li {
+  text-align: center;
 }
-.reports-f {
-    background-color: lightgray;
-  color:red;
+.li-information {
+  position: absolute;
+  bottom: 280px;
+  font-size: 15px;
+  left: 7px;
+  right: 7px;
 }
-.multiple-f {
-    background-color: grey;
-  color:red;
+.li-tel {
+  position: absolute;
+  bottom: 200px;
+  font-size: 15px;
+  left: 15px;
+  right: 15px;
 }
-.skills {
-    background-color: lightgreen;
-    color:red;
-}
-.productivity-s {
-    background-color: greenyellow;
-  color:red;
-}
-.traceability-s {
-    background-color: lightgreen;
-  color:red;
-}
-.team-management-s {
-    background-color: greenyellow;
-  color:red;
-}
-.decision-s {
-    background-color: lightgreen;
-  color:red;
-}
-#form {
-    background-color: lightgray;
-  color:red;
-}
-.fieldset-info-form {
-    background-color: gray;
-  color:red;
-}
-.fieldset-contact-form {
-    background-color: lightgray;
-  color:red;
-}
-.history {
-    background-color: gray;
-  color:red;
-}
-.section-pages {
-    background-color: lightgray;
-  color:red;
-}
-#footer {
-    background-color: yellow;
-  color:red;
+.li-adress {
+  position: absolute;
+  bottom: 100px;
+  font-size: 15px;
 }
