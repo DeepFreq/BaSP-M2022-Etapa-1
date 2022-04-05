@@ -246,7 +246,7 @@
 .reports-f img {
   position: relative;
   top: -194px;
-  right: -46px;
+  right: -36px;
   width: 38%;
   float:left;
 }
@@ -278,25 +278,133 @@
 
 .skills {
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 18%;
   margin-top: 5%;
-  width: 200%;
+  width: 37%;
+  text-align: center;
+  z-index: -10; 
+}
+.skills p {
+  margin-top: 10%;
 }
 .skills h2 {
   display: inline-block;
   font-weight: 700;
-  font-size: 200%;
+  font-size: 250%;
+  text-transform: uppercase;
 }
+.skills div {
+  border: 7px solid #9AB593;
+  box-sizing: border-box;
+  padding: 50px 50px 70px;
+}
+.productivity-s {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  width: 62%;
+  z-index: -10;
+}
+.traceability-s {
+  position: relative;
+  left: 860px;
+  right: 0px;
+  width: 62%;
+  top: -294px;
+  z-index: -10;
+}
+.team-management-s {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  width: 62%;
+  top: -170px;
+  z-index: -10;
+}
+.decision-s {
+  position: relative;
+  left: 860px;
+  right: 0px;
+  width: 62%;
+  top: -463px;
+  z-index: -10;
+}
+
+/* FORM */
+
 #form {
   display: inline-block;
-  margin-left: 10%;
-  margin-top: 5%;
+  margin-left: 15%;
+  margin-top: -9%;
   width: 200%;
 }
+.legend-1 {
+  position: relative;
+  font-weight: 700;
+  font-size: 250%;
+  z-index: -10;
+}
+.legend-2 {
+  position: relative;
+  font-weight: 700;
+  font-size: 100%;
+  z-index: -10;
+  left: 300px;
+}
+label {
+  font-weight: 700;
+}
+.input-full-name, .input-email, .text-area {
+    margin: 15px 0 50px 0;
+    padding: 15px 10px;
+    width: 34%;
+    border-style: none;
+    border-radius: 15px;
+    background-color: rgba(55, 56, 103, 0.4);
+}
+.l-email, .input-email {
+  position: relative;
+  left: -1380px;
+  right: 0px;
+  top: 180px;
+  float: left;
+}
+.l-email {
+  position: relative;
+  left: -1341px;
+  top: 160px;
+}
+.input-full-name, .l-name-LastName {
+  position: relative;
+  left: -26px;
+  right: 0px;
+  top: 46px;
+  float: left;
+}
+.l-name-LastName {
+  position: relative;
+  left: 112px;
+  right: 0px;
+  top: 25px;
+  float: left;
+}
+.fieldset-contact-form {
+  position: relative;
+  left: 43px;
+  right: 0px;
+  top: 170px;
+}
+
+
+
+
+/* HISTORY */
+
+
 .history {
-  display: inline-block;
+  position: relative;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 15%;
   width: 200%;
 }
 .section-pages {
