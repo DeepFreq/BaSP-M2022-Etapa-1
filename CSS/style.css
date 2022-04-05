@@ -153,9 +153,14 @@
   background-color:#AACE9B;
 }
 .section-features {
+  display: inline-block;
   margin-left: 15%;
   margin-top: 47%;
   z-index: -5;  
+}
+.section-features h2 {
+  position: relative;
+  float: left;
 }
 .div-1 h2 {
   position: relative;
@@ -165,13 +170,144 @@
 }
 .section-features div {
   display: inline-block;
-  width: 49%;
+  width: 600px;
+  text-align: center;
 }
 .section-features h3 {
   font-weight: 700;
-  font-size: 250%;  
+  font-size: 250%;
+  text-transform: uppercase;
 }
-.div-1 {
+.div-1 h3 {
+  position: relative;
+  left: 25%;
+  margin-top: 20%;
+  z-index: -10;
+}
+.div-1 p {
   display: inline-block;
-  width: 100%;
+  width: 50%;
+  margin-top: 9.6%;
+  line-height: 150%;
+}
+.div-1 img {
+  position: relative;
+  top: 10%;
+  left: ;
+  width: 50%;
+  float:left;
+  z-index: -10;
+}
+.resource-f h3 {
+  position: relative;
+  left: 362px;
+  top: -31px;
+  margin-bottom: 5%;
+  z-index: -10;
+}
+.resource-f img {
+  position: relative;
+  height: 50%;
+  width: 50%;
+  left: 19%;
+  top: 28%;
+  margin-top: -14%;
+  float: left;
+  z-index: -10;
+}
+.reports-f img {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  z-index: -10;
+}
+.resource-f p {
+  position: relative;
+  width: 50%;
+  top: 1px;
+  line-height: 150%;
+  left: 521px;
+  z-index: -10;
+}
+.reports-f h3 {
+  position: relative;
+  left: 25%;
+  top: 30%;
+  z-index: -10;
+}
+.reports-f p {
+  position: relative;
+  left: 301px;
+  width: 50%;
+  margin-top: 9.6%;
+  line-height: 150%;
+
+}
+.reports-f img {
+  position: relative;
+  top: -194px;
+  right: -46px;
+  width: 38%;
+  float:left;
+}
+.multiple-f img {
+  position: relative;
+  top: -171px;
+  left: 103px;
+  width: 65%;
+  float:left;
+  z-index: -10;
+}
+.multiple-f p {
+  position: relative;
+  width: 50%;
+  left: 524px;
+  right: 10px;
+  line-height: 150%;
+  z-index: -10;
+}
+.multiple-f h3 {
+  position: relative;
+  width: 55%;
+  left: 84%;
+  top: -60px;
+  z-index: -10;
+}
+
+/* SKILLS */
+
+.skills {
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 200%;
+}
+.skills h2 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 200%;
+}
+#form {
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 200%;
+}
+.history {
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 200%;
+}
+.section-pages {
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 200%;
+}
+#footer {
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 200%;
 }
