@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "header.css";
+@import "sidebar.css";
+@import "main.css";
+@import "footer.css";
+
+#body {
+    font-family:  'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: %;
+}
