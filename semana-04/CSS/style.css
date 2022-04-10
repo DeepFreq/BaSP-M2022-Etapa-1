@@ -4,7 +4,10 @@
 @import "main.css";
 @import "footer.css";
 
-#body {
+#div-aside-main {
+    display: flex;
+}
+body {
     font-family:  'Roboto', sans-serif;
     font-weight: 700;
     font-size: %;

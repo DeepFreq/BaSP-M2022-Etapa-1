@@ -10,183 +10,187 @@
         <link rel="stylesheet" href="CSS/style.css">
     </head>
     <body>
-        <header>
-            <h1>Trackgenix</h1>
-            <div>
+        <div id="div-header">
+            <header>
+                <h1>Trackgenix</h1>
+                
                 <p>
-                     We're Trackgenix S.A
+                    We're Trackgenix S.A
                 </p>
-            </div>
-            <div>
+                
+                
                 <img src="/Assets/icons8-menu-64.png" alt="">
-            </div>
-        </header>
-        <aside id="sidebar">
-            <div id="buttons">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sing Up</a></li>
-                    <li><a href="#">Log In</a></li>
-                </ul>
-            </div>
-            <div id="sidebar-contact">
-                <h2>Contact</h2>
-                    <p>
-                        Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-                    </p>
-                <ul>
-                    <li><img src="Assets/email.png" alt="emailIcon" class="img-email"><a href="#">Information@untitled.tld</a></li>
-                    <li><img src="Assets/phone.png" alt="iconPhone" class="img-phone"><a href="#">Tel: (000) 000-0000</a></li>
-                    <li><img src="Assets/house.png" alt="houseIcon" class="img-house"><a href="#">1234 Somewhere Road #8254 Nashville, TN 00000-0000</a></li>
-                </ul>
-            </div>
-        </aside>
-        <main id="main">
-            <section id="article-welcome">
-                <div>
-                    <h2>Welcome to Trackgenix</h2>
-                    <h3>The new work system</h3>
-                    <p>
-                        Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
-                    </p>
-                    <img src="Assets/imagenderecursoshumanos.png" alt="ImgHumanResource" class="img-resourceh">
-                </div>
-                <div id="div-bar-1">
-                </div>
-            </section>
-            <section id="section-features">
-                <h2>Features</h2>
-                <div id="div-features">
-                    <div>
-                        <h3>Record of Hours</h3>
-                        <p>
-                            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                        </p>
-                        <img src="Assets/imagenreloj.webp" alt="img-watch">
-                    </div>
-                    <div>
-                        <h3>Resource Management</h3>
-                        <p>
-                            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                        </p>
-                        <img src="Assets/gestionderecursosimagen.jpg" alt="ImgGestionResource">
-                    </div>
-                    <div>
-                        <h3>Reports</h3>
-                        <p>
-                            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                        </p>
-                        <img src="Assets/imagenreporte.png" alt="ImgMultipleRoles">
-                    </div>
-                    <div>
-                        <h3>Multiple Roles</h3>
-                        <p>
-                            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                        </p>
-                        <img src="Assets/imagenmultiplesroles.webp" alt="ImgMultipleRoles">
-                    </div>
-                </div>    
-            </section>
-            <div id="div-bar-2"></div>
-            <section id="skills">
-                <div>
-                    <h2>Productivity Booster</h2>
-                    <p>
-                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                    </p>
-                </div>
-                <div>
-                    <h2>Work Traceability</h2>
-                    <p>
-                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                    </p>
-                </div>
-                <div>
-                    <h2>Leadership and Team Management</h2>
-                    <p>
-                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                    </p>
-                </div>
-                <div>
-                    <h2>Decision Making</h2>
-                    <p>
-                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                    </p>
-                </div>
-            </section>
-            <section>
-                <form id="form">
-                <fieldset class="fieldset-info-form">
-                    <legend class="legend-1">Information</legend>
-                    <label  class="l-name-lastname" for="full-name"> Name & Last Name</label>
-                    <input class="input-full-name" type="text" id="full-name" name="full-name" placeholder="Your Name">
-                    <label  class="l-email" for="email">Email</label>
-                    <input class="input-email" type="email" id="email" name="email" placeholder="your@email.com">
-                </fieldset>
-                <fieldset class="fieldset-contact-form">
-                    <legend class="legend-2">Contact</legend>
-                    <input class="input-contact" type="radio" name="contact" id="human-resources" value="human-resources">
-                    <label for="human-resources" class="l-human-res">Human Resources</label>
-                    <input class="input-human-r" type="radio" name="contact" id="sistems" value="sistems">
-                    <label for="sistems" class="l-systems">Systems</label>
-                    <input class="input-systems" type="radio" name="contact" id="comercialization" value="comercialization">
-                    <label for="comercialization" class="l-commer">Commercialization</label><br>
-                    <label for="message-clients" class="l-mess">Message</label>
-                    <textarea class="text-area" id="message-clients" name="message-clients" rows="4" cols="50"></textarea>
-                </fieldset>
-                <input type="submit" value="Submit">
-                </form>
-            </section>    
-            <section id="history">
-                <h2>Our History</h2>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
-                </p>
-            </section>
-            <section id="section-pages">
-                <div class="products">
-                    <h2>Products</h2>
+                
+            </header>
+        </div>
+        <div id="div-aside-main">
+            <aside id="sidebar">
+                <div id="buttons">
                     <ul>
-                        <li><a href="#">Functionalities</a></li>
-                        <li><a href="#">Downloads</a></li>
-                        <li><a href="#">Integrations</a></li>
-                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sing Up</a></li>
+                        <li><a href="#">Log In</a></li>
                     </ul>
                 </div>
-                <div class="company">    
-                    <h2>Company</h2>
+                <div id="sidebar-contact">
+                    <h2>Contact</h2>
+                        <p>
+                            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
+                        </p>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Clients</a></li>
-                        <li><a href="#">Resources</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><img src="Assets/email.png" alt="emailIcon" class="img-email"><a href="#">Information@untitled.tld</a></li>
+                        <li><img src="Assets/phone.png" alt="iconPhone" class="img-phone"><a href="#">Tel: (000) 000-0000</a></li>
+                        <li><img src="Assets/house.png" alt="houseIcon" class="img-house"><a href="#">1234 Somewhere Road #8254 Nashville, TN 00000-0000</a></li>
                     </ul>
                 </div>
-                <div class="support">
-                    <h2>Support</h2>
-                    <ul>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Tutorials</a></li>
-                        <li><a href="#">API</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </section>
-            <footer id="footer">
-                <p>
-                    Rosario, Santa Fe - Argentina
-                </p>
-                <p>
-                    Copyright 2022 Trackgenix S.A. All Rights Reserved.
-                </p>
-            </footer>   
-        </main>    
+            </aside>
+            <main id="main">
+                <section id="article-welcome">
+                    <div>
+                        <h2>Welcome to Trackgenix</h2>
+                        <h3>The new work system</h3>
+                        <img src="Assets/imagenderecursoshumanos.png" alt="ImgHumanResource" class="img-resourceh">
+                        <p>
+                            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
+                        </p>
+                    </div>
+                    <div id="div-bar-1">
+                    </div>
+                </section>
+                <section id="section-features">
+                    <h2>Features</h2>
+                    <div id="div-features">
+                        <div id="hours">
+                            <h3>Record of Hours</h3>
+                            <p>
+                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                            </p>
+                            <img src="Assets/imagenreloj.webp" alt="img-watch">
+                        </div>
+                        <div>
+                            <h3>Resource Management</h3>
+                            <p>
+                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                            </p>
+                            <img src="Assets/gestionderecursosimagen.jpg" alt="ImgGestionResource">
+                        </div>
+                        <div>
+                            <h3>Reports</h3>
+                            <p>
+                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                            </p>
+                            <img src="Assets/imagenreporte.png" alt="ImgMultipleRoles">
+                        </div>
+                        <div>
+                            <h3>Multiple Roles</h3>
+                            <p>
+                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                            </p>
+                            <img src="Assets/imagenmultiplesroles.webp" alt="ImgMultipleRoles">
+                        </div>
+                    </div>    
+                </section>
+                <div id="div-bar-2"></div>
+                <section id="skills">
+                    <div>
+                        <h2>Productivity Booster</h2>
+                        <p>
+                            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Work Traceability</h2>
+                        <p>
+                            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Leadership and Team Management</h2>
+                        <p>
+                            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Decision Making</h2>
+                        <p>
+                            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                        </p>
+                    </div>
+                </section>
+                <section>
+                    <form id="form">
+                    <fieldset class="fieldset-info-form">
+                        <legend class="legend-1">Information</legend>
+                        <label  class="l-name-lastname" for="full-name"> Name & Last Name</label>
+                        <input class="input-full-name" type="text" id="full-name" name="full-name" placeholder="Your Name">
+                        <label  class="l-email" for="email">Email</label>
+                        <input class="input-email" type="email" id="email" name="email" placeholder="your@email.com">
+                    </fieldset>
+                    <fieldset class="fieldset-contact-form">
+                        <legend class="legend-2">Contact</legend>
+                        <input class="input-contact" type="radio" name="contact" id="human-resources" value="human-resources">
+                        <label for="human-resources" class="l-human-res">Human Resources</label>
+                        <input class="input-human-r" type="radio" name="contact" id="sistems" value="sistems">
+                        <label for="sistems" class="l-systems">Systems</label>
+                        <input class="input-systems" type="radio" name="contact" id="comercialization" value="comercialization">
+                        <label for="comercialization" class="l-commer">Commercialization</label><br>
+                        <label for="message-clients" class="l-mess">Message</label>
+                        <textarea class="text-area" id="message-clients" name="message-clients" rows="4" cols="50"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Submit">
+                    </form>
+                </section>    
+                <section id="history">
+                    <h2>Our History</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+                    </p>
+                </section>
+                <section id="section-pages">
+                    <div class="products">
+                        <h2>Products</h2>
+                        <ul>
+                            <li><a href="#">Functionalities</a></li>
+                            <li><a href="#">Downloads</a></li>
+                            <li><a href="#">Integrations</a></li>
+                            <li><a href="#">Extras</a></li>
+                        </ul>
+                    </div>
+                    <div class="company">    
+                        <h2>Company</h2>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Clients</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="support">
+                        <h2>Support</h2>
+                        <ul>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">API</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <footer id="footer">
+                    <p>
+                        Rosario, Santa Fe - Argentina
+                    </p>
+                    <p>
+                        Copyright 2022 Trackgenix S.A. All Rights Reserved.
+                    </p>
+                </footer>
+            </main>
+        </div>
     </body>
 </html>
