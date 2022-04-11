@@ -1,8 +1,6 @@
-#main section { 
-    background-color:aqua;
+#main section {
     font-weight: 400;
     color: #373867;
-    border: 2px solid yellow;
 }
 
 
@@ -10,6 +8,7 @@
 
 
 #article-welcome {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center
@@ -18,114 +17,172 @@
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-
-    border: 2px solid crimson;
 }
 #article-welcome h3 {
     text-align: center;
     font-weight: 700;
 }
 #article-welcome p {
-    padding: 10%;
+    padding: 20px;
     text-align: center;
 }
 #article-welcome img {
-    width: 50%;
+    width: 300px;
     border: 2px solid crimson;
 }
 #div-bar-1 {
     width: 100%;
     height: 5px;
-    background-color: chocolate;
+    background-color: #AACE9B;
 }
 
 
 /* FEATURES */
 
 
-#section-features {
-    border: 2px solid red;
-}
 #section-features h2 {
     font-weight: 700;
-    justify-content: center;
-    font-size: 25px;
-    padding-bottom: 5%;
+    font-size: 30px;
     text-align: center;
+    padding: 20px;
 }
 #div-features {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 #div-features h3 {
     font-weight: 700;
-}
-#div-features img {
-    width: 20%;
-}
-#hours {
-    flex-direction: column;
-}
-/* #div-features div {
-    border: 2px solid greenyellow;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-#div-features h3 {
-    font-weight: 700;
-    flex-direction: column;
-    justify-content: center;
-}
-#div-features img {
-    width: 50%;
+    font-size: 20px;
+    text-align: center;
 }
 #div-features p {
-    font-size: 10px;
-    align-items: center;
+    text-align: center;
+    padding: 10px;
 }
-#div-bar-2 {
+#div-features .hours-reports {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#img-hours img {
+    width: 70%;
+}
+#div-features .resource-roles {
+    display: flex;
+    flex-direction: row;
+}
+#img-resource img {
+    width: 70%;
+}
+#img-reports img {
     width: 100%;
-    height: 5px;
-    background-color: chocolate;
-} */
+}
+#img-roles {
+    display:none;
+    width: 10px;
+    border: 2px solid red;
+}
 
 
 /* SKILLS */
 
-
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #skills div {
-    border: 1px solid #373867;
+    border: 5px solid #AACE9B;
     box-sizing: border-box;
     padding: 10px;
+    margin: 30px;
+    width: 400px;
+    height: 300px;
+    font-weight: 700;
 }
 #skills h2 {
-    font-weight: 700;
+    color: #AACE9B;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15%;
 }
+#skills p {
+    text-align: center;
+}
+
+/* FORM */
+
+
 #form {
+    display: flex;
+    flex-direction: column;
     padding: 10%;
-}
-#form legend {
     font-weight: 700;
+}
+#input {
+    width: 60px;
+}
+#form .input-area {
+    border-radius: 5px;
+    background-color: #DADADA;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 3%;
+}
+#fieldset-info-form input {
+    margin-bottom: 10%;
+}
+#form h2 {
+    text-align: center;
+    padding: 5%;
+    font-size: 30px;
+}
+#form .title {
+    font-weight: 700;
+    color: #373867;
+    padding: 2px;
+    font-size: 20px;
+}
+#fieldset-info-form label{
+
+}
+#fieldset-info-form, .contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#contact-form legend {
+    padding-bottom: 10px;
+}
+#contact-form label {
+    font-size: 14px;
 }
 
 
 /* HISTORY */
 
-
-#history h2 {
+#history h2, h3{
     font-weight: 700;
 }
+#history h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
 #history h3 {
-    font-weight: 700;
     font-size: 90%;
+    text-align: center;
 }
 #history p {
     padding: 3%;
     font-size: 80%;
+    text-align: center;
 }
 
+
 /* LINK PAGES */
+
 
 #section-pages 
 .products h2 {
