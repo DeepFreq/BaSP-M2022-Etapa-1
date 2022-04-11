@@ -1,12 +1,11 @@
 #sidebar {
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
-    ;
-    width: 10%;
+    
+    width: 100%;
     background-color: tomato;
     box-shadow: 0px 5px 10px rgb(77, 76, 76);
-    border-radius: 0px 10px 0px 10px;
+    border-radius: 0px 10px 10px 0px;
     z-index: -10;
 }
 #buttons li {
@@ -23,10 +22,34 @@
     text-decoration: none;
     
 }
-
+#icons-sid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+#icons-sid div {
+    padding-bottom: 10px;
+}
+ul img {
+    width: 50px;
+}
+#icon-signup img{
+    width: 50px;
+}
 @media screen and (max-width: 480px) {
     #sidebar {
         background-color: aquamarine;
+        display: none;
+    }
+}
+@media screen and (min-width: 769px) {
+    #icons-sid {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    #buttons, #sidebar-contact {
         display: none;
     }
 }
