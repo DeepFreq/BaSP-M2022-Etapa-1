@@ -27,8 +27,7 @@
     text-align: center;
 }
 #article-welcome img {
-    width: 300px;
-    border: 2px solid crimson;
+    width: 100%;
 }
 #div-bar-1 {
     width: 100%;
@@ -65,6 +64,7 @@
 }
 #img-hours img {
     width: 70%;
+    z-index: -100;
 }
 #div-features .resource-roles {
     display: flex;
