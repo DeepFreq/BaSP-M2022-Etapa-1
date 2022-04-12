@@ -1,9 +1,12 @@
+ul img {
+    width: 50px;
+}
 #sidebar {
     display: flex;
     flex-direction: column;
-    
-    width: 100%;
-    background-color: tomato;
+    color: white;
+    width: 25%;
+    background-color: #373867;
     box-shadow: 0px 5px 10px rgb(77, 76, 76);
     border-radius: 0px 10px 10px 0px;
     z-index: -10;
@@ -31,15 +34,37 @@
 #icons-sid div {
     padding-bottom: 10px;
 }
-ul img {
-    width: 50px;
-}
 #icon-signup img{
     width: 50px;
 }
+#buttons a {
+    align-items: center;    
+}
+#sidebar-contact {
+    text-align: center;
+}
+#sidebar-contact h2 {
+    font-size: 20px;
+    padding: 20px;
+}
+#sidebar-contact p {
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+#sidebar-contact ul {
+}
+#sidebar-icons img {
+    width: 20px;
+    border: 2px solid red;
+    
+}
+
+
+
+
+
 @media screen and (max-width: 480px) {
     #sidebar {
-        background-color: aquamarine;
         display: none;
     }
 }
