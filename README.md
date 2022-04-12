@@ -54,4 +54,6 @@ In this third week our goal has been to implement CSS in our HTML. Our goal was 
 In this fourth week we begin to implement -flexbox- in our jobs. We thoroughly study its uses and implementations, making CSS work more agile, fast and flexible.
 We also implement the use of -media queries- for 3 different resolutions, 3 devices: Mobile, Tablet and desktop.
 
+github-pages link: https://deepfreq.github.io/BaSP-M2022-Etapa-1/
+
 ♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦
