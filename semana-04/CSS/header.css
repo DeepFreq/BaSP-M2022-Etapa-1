@@ -8,8 +8,9 @@ header {
 h1 {
     font-size: 40px;
 }
-#logo-track, p{
-    
+#logo-track p{
+    color: #69A362;
+    margin-left: 23%;
 }
 #menu-icon img{
     width: 90%;

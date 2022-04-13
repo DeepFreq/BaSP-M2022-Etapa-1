@@ -1,6 +1,9 @@
 ul img {
     width: 50px;
 }
+#div-aside-main {
+    height:;
+}
 #sidebar {
     display: flex;
     flex-direction: column;
@@ -11,19 +14,26 @@ ul img {
     border-radius: 0px 10px 10px 0px;
     z-index: -10;
 }
+#ul-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
 #buttons li {
     margin: 40px 10px 10px 10px;
     display: flex;
-    color: white;
+    justify-content: center;
+    width: 150px;
+    color: #373867;
     background-color: #AACE9B;
     padding-top: 11px;
     padding-bottom: 11px;
     border-radius: 10px;
 }
-#buttons a {
-    color: white;
+#buttons a{
+    color: #373867;
     text-decoration: none;
-    
 }
 #icons-sid {
     display: flex;
@@ -48,17 +58,30 @@ ul img {
     padding: 20px;
 }
 #sidebar-contact p {
+    font-size: 10px;
     font-weight: 400;
     padding-bottom: 40px;
 }
-#sidebar-contact ul {
+
+#sidebar-icons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100%;
+}
+#sidebar-icons li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #sidebar-icons img {
     width: 20px;
-    border: 2px solid red;
-    
+    padding: 7px;
 }
-
+#sidebar-icons li a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
 
 
 
