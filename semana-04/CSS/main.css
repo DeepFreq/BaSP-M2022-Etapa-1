@@ -17,7 +17,7 @@
     padding-top: 20px;
     text-align: center;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
 }
 #article-welcome h3 {
     text-align: center;
@@ -94,7 +94,9 @@
     align-items: center;
 }
 
+
 /* SKILLS */
+
 
 #skills {
     display: flex;
@@ -156,9 +158,6 @@
     padding: 2px;
     font-size: 20px;
 }
-#fieldset-info-form label{
-
-}
 #fieldset-info-form, .contact-form {
     display: flex;
     flex-direction: column;
@@ -173,6 +172,7 @@
 
 
 /* HISTORY */
+
 
 #history h2, h3{
     font-weight: 700;

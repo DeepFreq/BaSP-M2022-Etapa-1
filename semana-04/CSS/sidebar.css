@@ -1,9 +1,6 @@
 ul img {
     width: 50px;
 }
-#div-aside-main {
-    height:;
-}
 #sidebar {
     display: flex;
     flex-direction: column;
@@ -18,7 +15,6 @@ ul img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 2px solid red; */
 }
 #buttons li {
     margin: 40px 10px 10px 10px;
@@ -83,8 +79,7 @@ ul img {
     text-decoration: none;
 }
 
-
-
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 480px) {
     #sidebar {

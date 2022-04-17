@@ -13,7 +13,7 @@ h1 {
     margin-left: 23%;
 }
 #menu-icon img{
-    width: 90%;
+    width: 100%;
 }
 @media screen and (min-width: 481px) {
     #menu-icon img {
