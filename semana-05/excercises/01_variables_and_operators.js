@@ -20,6 +20,6 @@ console.log(iAm);
 console.log('(C)');
 
 var thisWords = 'This is a sentence.';
-var otherWords = '' This is a other sentence';
+var otherWords = ' This is a other sentence';
 var addTheWords = thisWords.length + otherWords.length;
 console.log(addTheWords);

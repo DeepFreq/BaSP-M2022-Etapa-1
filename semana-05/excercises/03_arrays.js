@@ -10,7 +10,36 @@ console.log(months[4], months[10]);
 // (B) //
 console.log('(B)');
 
-months.sort((a, b) => {
-    return a - b;
-});
+console.log(months.sort());
+
+// (C) //
+console.log('(C)');
+
+months.unshift('Start');
+months.push('End');
 console.log(months);
+
+// (D) //
+console.log('(D)');
+
+months.pop();
+months.shift();
+console.log(months);
+
+// (E) //
+console.log('(E)');
+
+months.reverse();
+console.log(months);
+
+// (F) //
+console.log('(F)');
+
+console.log(months.join('-'));
+
+// (G) //
+console.log('(G)');
+console.log(months);
+
+var newArray = months.slice(4,10);
+console.log(newArray);

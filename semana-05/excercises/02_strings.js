@@ -38,4 +38,5 @@ console.log(resultIndex);
 // (F) //
 console.log('(F)');
 var exercise2F = 'this character';
-var result2F = 
+var result2F = exercise2F.substring(0,1).toUpperCase()+exercise2F.substring(1, exercise2F.indexOf(' ')).toLowerCase()+ ' ' + exercise2F.substring(exercise2F.indexOf(' ') + 1, exercise2F.indexOf(' ') + 2).toUpperCase() + exercise2F.substring(exercise2F.indexOf(' ') + 2).toLowerCase();
+console.log(result2F);
