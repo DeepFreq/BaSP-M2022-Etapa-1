@@ -39,7 +39,6 @@ console.log(months.join('-'));
 
 // (G) //
 console.log('(G)');
-console.log(months);
 
-var newArray = months.slice(4,10);
+var newArray = months.slice(3,10);
 console.log(newArray);
