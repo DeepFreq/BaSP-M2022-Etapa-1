@@ -68,18 +68,19 @@
     font-weight: 700;
     font-size: 40px;
     text-align: center;
-    padding: 30px;
+    margin: 30px;
 }
 #section-features h3 {
     text-align: center;
     font-size: 30px;
+    margin: 20px;
 }
 #section-features p {
     text-align: center;
-    padding-left: 20%;
-    padding-top: 5%;
-    padding-right: 20%;
-    padding-bottom: 30px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-bottom: 30px;
 }
 #img-hours, #img-reports {
     display: flex;
@@ -107,8 +108,7 @@
 #skills div {
     border: 5px solid #AACE9B;
     box-sizing: border-box;
-    padding: 10px;
-    margin: 30px;
+    margin: 40px;
     width: 400px;
     height: 300px;
     font-weight: 700;
@@ -161,7 +161,7 @@
 #fieldset-info-form, .contact-form {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    margin: 10px;
 }
 #contact-form legend {
     padding-bottom: 10px;
@@ -180,14 +180,14 @@
 #history h2 {
     font-size: 30px;
     text-align: center;
-    padding: 20px;
+    margin: 20px;
 }
 #history h3 {
     font-size: 90%;
     text-align: center;
 }
 #history p {
-    padding: 3%;
+    margin: 3%;
     font-size: 80%;
     text-align: center;
 }
@@ -204,7 +204,7 @@
 #section-pages div {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    margin: 40px;
 }
 #section-pages h2 {
     color: #AACE9B;

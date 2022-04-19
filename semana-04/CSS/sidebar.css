@@ -31,18 +31,18 @@ ul img {
     color: #373867;
     text-decoration: none;
 }
-#icons-sid {
+/* #icons-sid {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-}
-#icons-sid div {
+} */
+/* #icons-sid div {
     padding-bottom: 10px;
-}
-#icon-signup img{
+} */
+/* #icon-signup img{
     width: 50px;
-}
+} */
 #buttons a {
     align-items: center;    
 }
@@ -93,6 +93,9 @@ ul img {
 }
 @media screen and (max-width: 768px) {
     #buttons, #sidebar-contact {
+        display: none;
+    }
+    #sidebar {
         display: none;
     }
 }
