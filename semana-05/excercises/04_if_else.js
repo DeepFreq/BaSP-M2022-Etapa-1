@@ -1,5 +1,5 @@
 // IF ELSE //
-console.log('(IF ELSE)');
+console.log('(--IF ELSE--)');
 
 // (A) //
 console.log('(A)');
