@@ -57,3 +57,20 @@ We also implement the use of -media queries- for 3 different resolutions, 3 devi
 github-pages link: https://deepfreq.github.io/BaSP-M2022-Etapa-1/
 
 ♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦
+
+# RR COURSE - 'BECOME A SOFTWARE DEVELOPER' 2022 - Fifth weekly problem.
+
+♦ In this week, we start with some practical Javascript exercises.
+
+## Description of the project.
+We start with some practical Javascript exercises.
+We learned about:
+- Arrays
+- Loops (for)
+- If, Else, Else if
+-Strings
+- variables
+-Functions
+In this problem we implement these JS elements applied to different situations, evaluating the results in the web browser console.
+
+Github-pages link: https://deepfreq.github.io/BaSP-M2022-Etapa-1/semana-05/index.html
