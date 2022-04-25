@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="/Styles/reset.css">
         <link rel="stylesheet" href="/Styles/style.css">
         <link rel="stylesheet" href="/Styles/login.css">
+        <script src="/Javascript/login.js"></script>
+        <script src="/Javascript/signup.js"></script>
     </head>
     <body>
         <header>
@@ -32,11 +34,11 @@
                             <fieldset id="fieldsetfirst">
                                 <div id="emailogin">
                                     <img src="/Assets/email2.png" alt="email icon">
-                                    <input type="email" name="email" placeholder="your@email.com">
+                                    <input id="inputemail" type="email" name="email" placeholder="your@email.com" onfocus="" onblur="verificar(this)">
                                 </div>
                                 <div id="padlock">
                                     <img src="/Assets/candado.png" alt="padlock icon">
-                                    <input type="password" name="password" placeholder="your password">
+                                    <input id="inputpass" type="password" name="password" placeholder="your password" onfocus="" onblur="verificar(this)">
                                 </div>
                             </fieldset>
                             <fieldset id="fieldsetsecond">
