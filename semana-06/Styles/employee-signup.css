@@ -1,0 +1,15 @@
+#fieldsetsignup {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.377);
+    border-radius: 5px;;
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+    height: ;
+    padding: 30px;
+}
+#fieldset-signup div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}

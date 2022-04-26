@@ -4,7 +4,7 @@
 @import "landing.css";
 @import "footer.css";
 @import "login.css";
-@import "signup.css";
+@import "employee-signup.css";
 
 #div-aside-main {
     display: flex;

@@ -10,7 +10,6 @@
         <link rel="stylesheet" href="/Styles/style.css">
         <link rel="stylesheet" href="/Styles/login.css">
         <script src="/Javascript/login.js"></script>
-        <script src="/Javascript/signup.js"></script>
     </head>
     <body>
         <header>
@@ -35,10 +34,12 @@
                                 <div id="emailogin">
                                     <img src="/Assets/email2.png" alt="email icon">
                                     <input id="inputemail" type="email" name="email" placeholder="your@email.com" onfocus="" onblur="verificar(this)">
+                                    <p class="errorMsj"></p>
                                 </div>
                                 <div id="padlock">
                                     <img src="/Assets/candado.png" alt="padlock icon">
                                     <input id="inputpass" type="password" name="password" placeholder="your password" onfocus="" onblur="verificar(this)">
+                                    <p class="errorMsj"></p>
                                 </div>
                             </fieldset>
                             <fieldset id="fieldsetsecond">
@@ -52,9 +53,12 @@
                             </ul>
                         </div>
                         <div id="continue">
-                            <ul>
+                            <!-- <ul>
                                 <li><a href="/Views/landing.html">Continue</a></li>
-                            </ul>
+                            </ul> -->
+                        </div>
+                        <div>
+                            <button id="buttonC"> Continue </button>
                         </div>
                     </form>
                 </div>
