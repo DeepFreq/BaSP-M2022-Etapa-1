@@ -31,3 +31,25 @@
     display: none;
     font-size: 12px;
 }
+
+/*Validation*/
+.form-correct-group .form-validation-status {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.form-incorrect-group .form-label {
+	color: #bb2929;
+}
+
+.form-incorrect-group .form-validation-status {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.form-incorrect-group .form-input {
+	border: 3px solid #bb2929;
+}
+.form-msj-active-exit {
+	display: block;
+}
