@@ -13,3 +13,21 @@
     flex-direction: column;
     margin-bottom: 20px;
 }
+#fieldset-signup p {
+    font-weight: 400;
+    color: red;
+}
+.form-input {
+    border: 1px solid gray;
+    transition: .3s ease all;
+    border-radius: 3px;
+    height: 20px;
+}
+.form-input:focus {
+    border: 2px solid #0075FF;
+    outline: none;
+}
+.errorMessage {
+    display: none;
+    font-size: 12px;
+}
