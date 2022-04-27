@@ -88,14 +88,32 @@ window.onload = function () {
         if(exprsSignUp.test(input.value)) {
             document.getElementById(`${fields}-form`).classList.remove('form-incorrect-group');
             document.getElementById(`${fields}-form`).classList.add('form-correct-group');
-            document.getElementById(`${fields}-form`.errorMesage).classList.remove('form-msj-active-exit');
+            document.getElementById(`${fields}-form`.errorMesage).classList.remove('form-msj-active-success');
             campos[fields] = true;
            }    else {
                document.getElementById(`${fields}-form`).classList.add('form-incorrect-group');
                document.getElementById(`${fields}-form`).classList.remove('form-incorrect-group');
-               document.getElementById(`${fields}-form`.errorMesage).classList.add('form-msj-active-exit');
+               document.getElementById(`${fields}-form`.errorMesage).classList.add('form-msj-active-success');
                campos[campo] = false;
            }
+    }
+
+
+    var validationAll2 = () => {
+        var inputPassword1 = document.getElementById('password');
+        var inputPassword2 = document.getElementById('repeatPass');
+    
+        if(inputPassword1.value !== inputPassword2.value){
+            document.getElementById(`grupo__password2`).classList.add('form-incorrect-group');
+            document.getElementById(`grupo__password2`).classList.remove('form-correct-group');
+            document.querySelector(`#grupo__password2 .formulario__input-error`).classList.add('formulario__input-error-activo');
+            campos['password'] = false;
+        } else {
+            document.getElementById(`grupo__password2`).classList.remove('formulario__grupo-incorrecto');
+            document.getElementById(`grupo__password2`).classList.add('formulario__grupo-correcto');
+            document.querySelector(`#grupo__password2 .formulario__input-error`).classList.remove('formulario__input-error-activo');
+            campos['password'] = true;
+        }
     }
 
     inputsSignUp.forEach((input) => {
@@ -111,7 +129,7 @@ window.onload = function () {
 
     var signup = document.getElementById('form');
     signup.addEventListener('submit', signupsubmit);
-    
+
     function signupsubmit(e) {
         e.preventDefault();
         var form = new FormData(signup);
