@@ -5,9 +5,10 @@ window.onload = function () {
 
     console.log(inputsSignUp);
 
+    // Expresions
+
     var exprsSignUp = {
 
-        // Expresions
         nameRegex: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
         lastnameRegex: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
         passwordRegex: /[a-z0-9]/,
@@ -31,6 +32,8 @@ window.onload = function () {
         email: false,
         repeatpass: false,
     }
+
+    // Validations 
 
     var formValidation = (e) => { // No se ejecuta el codigo 
        switch (e.target.name) {
@@ -86,25 +89,29 @@ window.onload = function () {
             document.getElementById(`${fields}-form`).classList.remove('form-incorrect-group');
             document.getElementById(`${fields}-form`).classList.add('form-correct-group');
             document.getElementById(`${fields}-form`.errorMesage).classList.remove('form-msj-active-exit');
+            campos[fields] = true;
            }    else {
                document.getElementById(`${fields}-form`).classList.add('form-incorrect-group');
                document.getElementById(`${fields}-form`).classList.remove('form-incorrect-group');
                document.getElementById(`${fields}-form`.errorMesage).classList.add('form-msj-active-exit');
+               campos[campo] = false;
            }
     }
 
-    inputs.forEach((input) => {
+    inputsSignUp.forEach((input) => {
         input.addEventListener('keyup', formValidation);
         input.addEventListener('blur', formValidation);
     })
-
+    
     form.addEventListener('submit', (e) => {
         e.preventDefault();
     });
     
+    // Alerts
+
     var signup = document.getElementById('form');
     signup.addEventListener('submit', signupsubmit);
-
+    
     function signupsubmit(e) {
         e.preventDefault();
         var form = new FormData(signup);
@@ -131,6 +138,4 @@ window.onload = function () {
             alert('Wrong Inputs');
         }
     }
-
-
 }

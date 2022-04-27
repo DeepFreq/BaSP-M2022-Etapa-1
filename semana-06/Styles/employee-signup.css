@@ -3,8 +3,8 @@
     border-radius: 5px;;
     display: flex;
     flex-direction: column;
+    width: 300px;
     margin: 150px;
-    height: ;
     padding: 30px;
 }
 #fieldset-signup div {
@@ -16,6 +16,20 @@
 #fieldset-signup p {
     font-weight: 400;
     color: red;
+}
+#fieldset-signup label{
+    text-align:left;
+    color: #373867;
+}
+#buttonC button{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 50%;
+
+}
+.form-exit {
+    display: none;
 }
 .form-input {
     border: 1px solid gray;
