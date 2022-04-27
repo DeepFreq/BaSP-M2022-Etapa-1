@@ -74,3 +74,14 @@ We learned about:
 In this problem we implement these JS elements applied to different situations, evaluating the results in the web browser console.
 
 Github-pages link: https://deepfreq.github.io/BaSP-M2022-Etapa-1/semana-05/index.html
+
+♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦
+
+# RR COURSE - 'BECOME A SOFTWARE DEVELOPER' 2022 - Sixty weekly problem.
+
+♦ In this week we apply DOM functions to generate JS code.
+
+## Description of the project.
+We made use of the DOM to create code based on validations on <inputs> fields. They should display error messages and form complete messages when submitted.
+
+Github-pages link: https://deepfreq.github.io/BaSP-M2022-Etapa-1/semana-06/
