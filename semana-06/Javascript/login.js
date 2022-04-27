@@ -57,4 +57,27 @@ window.onload = function () {
     function cleanV(e) {
         e.path[0].nextElementSibling.style.display = "none";
     }
+
+    var login = document.getElementById('login');
+    login.addEventListener('submit', emailsubmit);
+
+    function emailsubmit(e) {
+        e.preventDefault();
+        var form = new FormData(login);
+        var formEmail = form.get('inputemail');
+        var formPassword = form.get('inputpassword');
+
+        if (formPassword.match(passwordRegex) && formEmail.match(emailRegex)) {
+            errorMsj.style.display = 'none';
+            inputpass.style.borderColor = '#0F0';
+            inputemail.style.borderColor = '#0F0';
+            alert('Email: ' + formEmail + '\n' + 'Password: ' + formPassword);
+        } else {
+            inputpass.style.borderColor = '#f00';
+            inputemail.style.borderColor = '#f00';
+            errorMsj.style.display = 'block';
+            alert('Email or password incorrect');
+        }
+    }
 }
+
