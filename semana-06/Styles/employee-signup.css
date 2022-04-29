@@ -21,7 +21,8 @@
     color: #373867;
 }
 #buttonC button{
-    border-radius: 7px;
+    border-radius: 7
+    px;
     width: 100px;
     height: 30px;
 }

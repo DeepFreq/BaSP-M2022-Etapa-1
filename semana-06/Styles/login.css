@@ -13,9 +13,12 @@ form {
     display: flex;
     flex-direction: column;
 }
+#fieldsetfirst p {
+    font-size: 10px;
+    margin: 5px;
+    display: none;
+}
 #box {
-    width: 250px;
-    height: 300px;
     padding: 50px;
     margin: 155px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.377);
@@ -23,12 +26,20 @@ form {
 }
 #emailogin {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     margin-bottom: 50px;
+    align-items: center;
+}
+#emailSection {
+    display: flex;
+}
+#passwordSection {
+    display: flex;
 }
 #padlock {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 #padlock img {
     width: 25px;
