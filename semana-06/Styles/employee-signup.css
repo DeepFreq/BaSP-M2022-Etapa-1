@@ -3,14 +3,13 @@
     border-radius: 5px;;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin: 150px;
+    width:;
+    margin-top: 150px;
+    margin-bottom: 150px;
     padding: 30px;
 }
 #fieldset-signup div {
     text-align: center;
-    display: flex;
-    flex-direction: column;
     margin-bottom: 20px;
 }
 #fieldset-signup p {
@@ -22,11 +21,9 @@
     color: #373867;
 }
 #buttonC button{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    width: 50%;
-
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
 }
 .form-exit {
     display: none;
@@ -66,4 +63,34 @@
 }
 .form-msj-active-success {
 	display: block;
+}
+
+@media screen and (min-width: 481px) {
+    #fieldsetsignup {
+        width: 400px;
+    }
+    #div-origin {
+        display: flex;
+        align-self: center
+    }
+    
+    #div-group1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #div-group2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form-group {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #fieldsetsignup {
+        width: 600px;
+    }
 }
