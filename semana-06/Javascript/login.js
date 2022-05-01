@@ -1,7 +1,7 @@
 // -Window.onload- es un evento para ejecutar codigo Javascript apenas la pagina haya cargado. De esta manera nos aseguramos que el navegador...
 // ...está ejecutando JS correctamente.
 window.onload = function () {
-    var exprsLogin = {
+    var exressionsRegex = {
         password: /[a-z0-9]/,
         email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
     }
