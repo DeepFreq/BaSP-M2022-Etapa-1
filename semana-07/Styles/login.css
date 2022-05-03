@@ -1,0 +1,72 @@
+section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 70px;
+    color: #373867
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+#fieldsetfirst p {
+    font-size: 10px;
+    margin: 5px;
+    display: none;
+}
+#box {
+    padding: 50px;
+    margin: 155px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.377);
+    border-radius: 5px;;
+}
+#emailogin {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: center;
+}
+#emailSection {
+    display: flex;
+}
+#passwordSection {
+    display: flex;
+}
+#padlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#padlock img {
+    width: 25px;
+    margin-right: 7px;
+}
+#fieldsetsecond {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 11px;
+    color: #373867;
+}
+#forgotpass {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+#continue {
+    border-radius: 2px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #AACE9B;
+    width: 200px;
+    height: 30px;
+}

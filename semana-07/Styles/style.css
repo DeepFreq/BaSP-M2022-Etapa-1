@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "header.css";
+@import "sidebar.css";
+@import "landing.css";
+@import "footer.css";
+@import "login.css";
+@import "employee-signup.css";
+
+#div-aside-main {
+    display: flex;
+}
+body {
+    font-family:  'Roboto', sans-serif;
+    font-weight: 700;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trackgenix - Log In</title>
+        <link rel="icon" type="image/x-icon" href="../Assets/favicon.ico">
+        <link rel="stylesheet" href="/Styles/reset.css">
+        <link rel="stylesheet" href="/Styles/style.css">
+        <link rel="stylesheet" href="/Styles/login.css">
+        <script src="/Javascript/login.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="logo-track">
+                <h1>Trackgenix</h1>       
+                <p>
+                    We're Trackgenix S.A
+                </p>
+            </div>
+            <div id="menu-icon">
+                <img src="/Assets/icons8-menu-64.png" alt="">
+            </div> 
+        </header>
+
+        <main>
+            <section>
+                <div id="box">
+                    <form>
+                        <div id="fieldset">
+                            <h2>LOG IN</h2>
+                            <fieldset id="fieldsetfirst">
+                                <div id="emailogin">
+                                    <div id="emailSection">
+                                        <img src="/Assets/email2.png" alt="email icon">
+                                        <input id="inputemail" type="email" name="email" placeholder="your@email.com">
+                                    </div>
+                                    <div class="div-p">
+                                        <p class="errorMsj">error en el email</p>
+                                    </div>
+                                </div>
+                                <div id="padlock">
+                                    <div id="passwordSection">
+                                        <img src="/Assets/candado.png" alt="padlock icon">
+                                        <input id="inputpass" type="password" name="password" placeholder="your password">
+                                    </div>
+                                    <div class="div-p">
+                                        <p class="errorMsj">error en el password</p>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset id="fieldsetsecond">
+                                <input type="checkbox" name="checkbox" value="remember">
+                                <label for="remember">Remember me</label>
+                            </fieldset>
+                        </div>
+                        <div id="forgotpass">
+                            <ul>
+                                <li><a href="#">Forgot password?</a></li>
+                            </ul>
+                        </div>
+                        <div id="continue">
+                            <button id="buttonC"> Continue </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <footer id="footer">
+                <p>
+                    Rosario, Santa Fe - Argentina
+                </p>
+                <p>
+                    Copyright 2022 Trackgenix S.A. All Rights Reserved.
+                </p>
+            </footer>
+        </main>
+    </body>
+</html>

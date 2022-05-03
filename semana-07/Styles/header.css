@@ -1,0 +1,22 @@
+header {
+    color: #373867;
+    background-color: #AACE9B;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 40px;
+}
+#logo-track p{
+    color: #69A362;
+    margin-left: 23%;
+}
+#menu-icon img{
+    width: 100%;
+}
+@media screen and (min-width: 769px) {
+    #menu-icon img {
+        display: none;
+    }
+}

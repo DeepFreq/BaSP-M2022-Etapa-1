@@ -1,0 +1,97 @@
+#fieldsetsignup {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.377);
+    border-radius: 5px;;
+    display: flex;
+    flex-direction: column;
+    width:;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 30px;
+}
+#fieldset-signup div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#fieldset-signup p {
+    font-weight: 400;
+    color: red;
+}
+#fieldset-signup label{
+    text-align:left;
+    color: #373867;
+}
+#buttonC button{
+    border-radius: 7
+    px;
+    width: 100px;
+    height: 30px;
+}
+.form-exit {
+    display: none;
+}
+.form-input {
+    border: 1px solid gray;
+    transition: .1s ease all;
+    border-radius: 3px;
+    height: 20px;
+}
+.errorMessage {
+    display: none;
+    font-size: 12px;
+}
+
+/*Validation*/
+.form-correct-group .form-validation-status {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.form-incorrect-group .form-label {
+	color: #bb2929;
+}
+
+.form-incorrect-group .form-validation-status {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.form-incorrect-group .form-input {
+	border: 3px solid #bb2929;
+}
+.form-msj-active-success {
+	display: block;
+}
+span {
+    color: red; 
+    font-size: 10px; 
+}
+
+@media screen and (min-width: 481px) {
+    #fieldsetsignup {
+        width: 400px;
+    }
+    #div-origin {
+        display: flex;
+        align-self: center
+    }
+    
+    #div-group1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #div-group2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form-group {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #fieldsetsignup {
+        width: 600px;
+    }
+}
